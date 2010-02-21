@@ -85,7 +85,7 @@ slideshow.prototype = {
         this.clipper[0].style.left = '0px';
         this.clipper[0].style.height = (this.slideHeight + (this.filmstripBorderHeight * 2)) + 'px';
         this.clipper[0].style.width = '1000%';
-        this.clipper[0].style.backgroundImage = 'url(http://fehrenbacher.com/wp-content/uploads/2010/01/05/filmstrip.png)';
+        this.clipper[0].style.backgroundImage = 'url(http://github.com/oxchronxo/Slideshow/raw/master/images/filmstrip.png)';
         
         // 
         jQuery.getJSON(this.flickrFeed + "&jsoncallback=?", (function(data) {
