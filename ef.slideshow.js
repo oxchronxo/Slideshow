@@ -26,14 +26,14 @@ var slideshow = function(options) {
     this.movementOffset = 1;
     
     this.filmstripWidth = 12;
-    this.slideHeight = 80;
+    this.slideHeight = 50;
     this.slidePaddingWidth = 7;
     this.filmstripBorderHeight = 14;
     
     this.openFilmstripTimeout = 500;
     this.animationTimer = 10;
     
-    this.paused = false;
+    this.paused = true;
     
     this.baseId = options.baseId || 'slideshow';
     
